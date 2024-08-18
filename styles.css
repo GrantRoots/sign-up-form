@@ -4,10 +4,6 @@
     font-style: normal;
 }
 
-* {
-    /*border box sizing dont mess up the logo bar */
-}
-
 body {
     display: flex;
     flex-direction: row;
@@ -64,8 +60,8 @@ h1 {
     padding: 50px;
 }
 
-input, label{
-    
+input, label {
+    display: block;
 }
 
 .form-heading {
@@ -73,7 +69,16 @@ input, label{
 }
 
 .form-row {
-    
+    margin: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 20px;
 }
 
 .footer {
