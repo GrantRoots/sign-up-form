@@ -1,1 +1,2 @@
 # sign-up-form
+Sign up form is a project I made using html and css. I make a mock up sign up page using a form and other html and css to make the website responsive to screen size and to make sure the form shows valid or invalid responses.
